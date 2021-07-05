@@ -1,9 +1,12 @@
-# don't forget to add: require 'pry'
-
+require 'pry'
 def start_game(player1, player2)
-  "Hello #{player1} & #{playar2}"
+  intro = "Hello #{player1} & #{player2}"
+  puts intro
+  intro
 end
 
-def play_game(player2)
-  "#{player1} is better than #{player2}"
+def play_game(player1, player2)
+  winner = "#{player1} is better than #{player2}"
+  puts winner
+  winner
 end
